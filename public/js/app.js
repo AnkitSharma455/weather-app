@@ -1,5 +1,3 @@
-console.log('Client side java Script')
-
 const search = document.querySelector('input')
 const searchForm =  document.querySelector('form');
 const msg1 = document.querySelector('#msg1')
