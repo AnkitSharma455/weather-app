@@ -9,7 +9,7 @@ searchForm.addEventListener('submit',(e)=>{
     e.preventDefault()
     msg1.textContent = 'Loading.....'
     const address = search.value
-    fetch('http://localhost:3000/weather?location='+address)
+    fetch('/weather?location='+address)
     .then((resp)=>{resp.json()
     .then((data)=>{
         if(data.error)
